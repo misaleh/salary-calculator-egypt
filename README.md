@@ -12,8 +12,7 @@ It is very simple to use just run the code and enter the salary and the insuranc
 ```
 
 ### TODO
- * Create a GUI
- * Add Arabic language support
+ * Update the GUI with better UX.
 
 ### Credits 
 Inital work done by @misaleh, Special thanks to @ahmdsamy for support
