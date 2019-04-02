@@ -28,11 +28,11 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    salary_calc.cpp
+    ../salary_calc.cpp
 
 HEADERS += \
         mainwindow.h \
-    salary_calc.h
+    ../salary_calc.h
 
 FORMS += \
         mainwindow.ui

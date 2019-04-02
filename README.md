@@ -1,21 +1,50 @@
 ## SALARY CALCULATOR EGYPT 
-**Last updated**: Mar 2019
 
-**Current Version**: 1.0
+**Current Version**: 1.1
 
 Salary Calculator is just a simple program I made to calculate my salary :moneybag: :nerd_face:
 
 ### How to use
-It is very simple to use just run the code and enter the salary and the insurance
+**Compile for command line version**
+
+```
+make
+```
+
+**Run **
+
 ```
 ./salary_calculator.bin
 ```
+**Compile for GUI**
 
+yo can use QT creator to build the project from it, or build from shell as follows:
+
+```
+cd GUI
+```
+
+```
+qmake SalaryCalculator.pro &&make qmake_all
+```
+```
+make
+```
+**Run **
+```
+./SalaryCalculator (or just double click :sweat_smile:)
+```
+
+
+### Dependencies
+* QT for gui (originally developed with QT 5.12, however it's very simple, it should compile with older versions)
 ### TODO
- * Update the GUI with better UX.
+ * ~~Create a GUI~~
+ * ~~Add Arabic language support~~
+
 
 ### Credits 
 Inital work done by @misaleh, Special thanks to @ahmdsamy for support
  
 ### Disclaimer
-I written this equation based on my understanding of the Egyptian laws. The authors of this program are not responisble for any damage. **Use at your own risk**
+I wrote this equation based on my understanding of the Egyptian laws. The authors of this program are not responisble for any damage. **Use at your own risk**

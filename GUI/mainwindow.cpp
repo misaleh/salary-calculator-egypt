@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "salary_calc.h"
+#include "../salary_calc.h"
 #include <QMessageBox>
 #include <QDoubleValidator>
 enum language_t  {EN = 0 , AR};
