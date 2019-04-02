@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>508</width>
+    <height>387</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,77 +17,35 @@
    <widget class="QPushButton" name="CalculateButton">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>120</y>
-      <width>75</width>
-      <height>23</height>
+      <x>180</x>
+      <y>220</y>
+      <width>141</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
      <string>احسب</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="plainTextEditmg">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>80</y>
-      <width>91</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_mongros">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>60</y>
-      <width>71</width>
-      <height>16</height>
+      <x>70</x>
+      <y>90</y>
+      <width>121</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>الدخل الشهرى</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_title">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>10</y>
-      <width>91</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::WinPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>16</number>
-    </property>
-    <property name="text">
-     <string>Salary Calculator</string>
-    </property>
-   </widget>
-   <widget class="QPlainTextEdit" name="plainTextEdit_si">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>80</y>
-      <width>91</width>
-      <height>31</height>
-     </rect>
+     <string>الدخل الاجمالي</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_mongros_2">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>60</y>
-      <width>91</width>
+      <x>310</x>
+      <y>90</y>
+      <width>131</width>
       <height>20</height>
      </rect>
     </property>
@@ -95,49 +53,89 @@
      <string>التأمين الاجتماعى </string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_outsalary">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>180</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_mongros_3">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>180</y>
-      <width>91</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>صافى المرتب</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>130</x>
       <y>10</y>
-      <width>51</width>
+      <width>211</width>
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>URW Palladio L</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
-     <string/>
+     <string>Salary Calculator</string>
     </property>
-    <property name="pixmap">
-     <pixmap resource="images.qrc">:/image/money.png</pixmap>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>387</x>
+      <y>10</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
     </property>
-    <property name="scaledContents">
-     <bool>true</bool>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="font">
+        <font>
+         <underline>true</underline>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>عربي</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="font">
+        <font>
+         <underline>true</underline>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>EN</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
+      <y>120</y>
+      <width>131</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>312</x>
+      <y>120</y>
+      <width>131</width>
+      <height>25</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -146,10 +144,24 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>400</width>
-     <height>21</height>
+     <width>508</width>
+     <height>22</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionGithub"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuHelp"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -160,10 +172,23 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="font">
+    <font>
+     <underline>true</underline>
+    </font>
+   </property>
+  </action>
+  <action name="actionGithub">
+   <property name="text">
+    <string>Github</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources>
-  <include location="images.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
