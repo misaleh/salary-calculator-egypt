@@ -2,7 +2,7 @@
 
 **Current Version**: 1.1
 
-Salary Calculator is just a simple program I made to calculate my salary :moneybag: :nerd_face:
+Salary Calculator is a simple program I made to calculate my salary :moneybag: :nerd_face:
 
 ### How to use
 **Compile for command line version**
@@ -30,7 +30,9 @@ qmake SalaryCalculator.pro &&make qmake_all
 ```
 make
 ```
+
 **Run**
+
 ```./SalaryCalculator``` (or just double click :sweat_smile: )
 
 ### Dependencies
@@ -38,7 +40,6 @@ make
 ### TODO
  * ~~Create a GUI~~
  * ~~Add Arabic language support~~
-
 
 ### Credits 
 Inital work done by @misaleh, Special thanks to @ahmdsamy for support
