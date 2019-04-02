@@ -11,7 +11,7 @@ Salary Calculator is just a simple program I made to calculate my salary :moneyb
 make
 ```
 
-**Run **
+**Run**
 
 ```
 ./salary_calculator.bin
@@ -30,14 +30,11 @@ qmake SalaryCalculator.pro &&make qmake_all
 ```
 make
 ```
-**Run **
-```
-./SalaryCalculator (or just double click :sweat_smile:)
-```
-
+**Run**
+```./SalaryCalculator``` (or just double click :sweat_smile: )
 
 ### Dependencies
-* QT for gui (originally developed with QT 5.12, however it's very simple, it should compile with older versions)
+* QT for GUI (originally developed with QT 5.12, however it's very simple, it should compile with older versions)
 ### TODO
  * ~~Create a GUI~~
  * ~~Add Arabic language support~~
