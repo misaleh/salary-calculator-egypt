@@ -44,6 +44,7 @@ make
 ### TODO
  * ~~Create a GUI~~
  * ~~Add Arabic language support~~
+ * Make an online version
 
 ### Credits 
 Inital work done by @misaleh, Special thanks to @ahmdsamy for support
