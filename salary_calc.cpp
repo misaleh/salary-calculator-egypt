@@ -15,7 +15,7 @@ double calcMonthlyNet(double monthly_gross, double insurance)
 
 	for(int i = 0 ; i < LEVEL_NBR; i++)
 	{
-		if((annual_gross - ANNUAL_EXMPT)< salary_array[i] )
+        if((annual_gross - ANNUAL_EXMPT - annual_insurance)< salary_array[i] )
 		{
 			tax_percent = tax_array[i];
 			break;
